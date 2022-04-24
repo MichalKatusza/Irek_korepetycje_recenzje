@@ -11,6 +11,8 @@ from django.views.generic import (
 from .models import Post
 
 
+# Adam
+
 def home(request):
     context = {
         'posts': Post.objects.all()
